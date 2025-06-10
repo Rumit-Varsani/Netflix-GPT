@@ -5,7 +5,7 @@ import {
   createUserWithEmailAndPassword,
   signInWithEmailAndPassword,
 } from "firebase/auth";
-import { auth } from "../utils/Firebase";
+import { auth } from "../utils/firebase";
 const Login = () => {
   const [IsSignInForm, setIsSignInForm] = useState(true);
   const [ErrorMessage, setErrorMessage] = useState(null);
