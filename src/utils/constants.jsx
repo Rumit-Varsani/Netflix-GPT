@@ -4,3 +4,10 @@ export const AVATAR = "https://avatars.githubusercontent.com/u/147755424?v=4"
 
 export const BG = "https://assets.nflxext.com/ffe/siteui/vlv3/6863f6e8-d419-414d-b5b9-7ef657e67ce4/web/DE-en-20250602-TRIFECTA-perspective_7519d00d-4399-4ae6-98ec-ed02f20704a5_large.jpg"
         
+export const API_OPTIONS = {
+  method: 'GET',
+  headers: {
+    accept: 'application/json',
+    Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJkMTY5MDY4NTEyNWQyZjhhYTRhMWRmZjViMWQzZTJkNSIsIm5iZiI6MTc1MDM0NjM4My41MTEwMDAyLCJzdWIiOiI2ODU0MmE4ZmRlNzFjMTUwNWM3OWIwYjgiLCJzY29wZXMiOlsiYXBpX3JlYWQiXSwidmVyc2lvbiI6MX0.QrzzghtuOXUbzl1staq5z_HKK-UAnicH8mdV10tAE50'
+  }
+};
